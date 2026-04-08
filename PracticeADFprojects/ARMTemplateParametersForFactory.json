@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "PracticeADFprojects"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SQL_password": {
+			"value": ""
+		},
+		"project_lochan_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://practiceadfproject.dfs.core.windows.net/"
+		},
+		"SQL_properties_typeProperties_server": {
+			"value": "DESKTOP-LOCHANK\\SQLEXPRESS"
+		},
+		"SQL_properties_typeProperties_database": {
+			"value": "employee"
+		},
+		"SQL_properties_typeProperties_userName": {
+			"value": "Lochan_ADF_Project"
+		},
+		"customer_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"project_lochan_properties_typeProperties_server": {
+			"value": "lochansql1.database.windows.net"
+		},
+		"project_lochan_properties_typeProperties_database": {
+			"value": "pocdata"
+		},
+		"project_lochan_properties_typeProperties_userName": {
+			"value": "Lochan"
+		}
+	}
+}
