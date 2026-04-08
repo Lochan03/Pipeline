@@ -1,0 +1,21 @@
+{
+	"name": "SQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-LOCHANK\\SQLEXPRESS",
+			"database": "employee",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "Lochan_ADF_Project",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlZjUyNWM3YS04ZjBhLTRhZDYtYWZiYi0xYjgwMTBlN2JhMTAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
